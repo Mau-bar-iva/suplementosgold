@@ -4,10 +4,10 @@ export default function Carrousel(){
     const scrollRef = useRef(null);
 
     const productos = [
-        { id: 1, nombre: "Proteína", img: "./src/assets/BannerCreatina.png" },
-        { id: 2, nombre: "Creatina", img: "./src/assets/BannerCreatina.png" },
-        { id: 3, nombre: "Pre-entreno", img: "./src/assets/BannerCreatina.png" },
-        { id: 4, nombre: "Aminoácidos", img: "./src/assets/BannerCreatina.png" },
+        { id: 1, nombre: "Proteína", img: "./assets/BannerCreatina.png" },
+        { id: 2, nombre: "Creatina", img: "./assets/BannerCreatina.png" },
+        { id: 3, nombre: "Pre-entreno", img: "./assets/BannerCreatina.png" },
+        { id: 4, nombre: "Aminoácidos", img: "./ssets/BannerCreatina.png" },
     ];
 
     useEffect(() => {
