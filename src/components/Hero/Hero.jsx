@@ -11,7 +11,7 @@ export default function Hero(){
             <header className="fixed w-full h-15 flex justify-between items-center px-4 bg-[#252522] z-10">
                 <div className="h-[50px]">
                     <Link to="/">
-                        <img src="/public/assets/Logo-Hero.png" alt="Logo-suplementosgold" className="h-full rounded-full" />
+                        <img src="/assets/Logo-Hero.png" alt="Logo-suplementosgold" className="h-full rounded-full" />
                     </Link>
                 </div>
 
