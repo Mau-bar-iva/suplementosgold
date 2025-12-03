@@ -1,8 +1,8 @@
 import './Banner.css';
 import { useState, useEffect } from 'react';
 import BannerColageno from "../../assets/BannerColageno.png"
-import BannerCreatina from "../../src/assets/BannerCreatina.png"
-import BannerProteina from "../../src/assets/BannerProteina.png"
+import BannerCreatina from "../../assets/BannerCreatina.png"
+import BannerProteina from "../../assets/BannerProteina.png"
 function Banner({Titulo=""}){
     const imagenes = [
         BannerColageno,
