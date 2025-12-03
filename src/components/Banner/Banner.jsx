@@ -1,11 +1,13 @@
 import './Banner.css';
 import { useState, useEffect } from 'react';
-
+import BannerColageno from "./src/assets/BannerColageno.png"
+import BannerCreatina from "./src/assets/BannerCreatina.png"
+import BannerProteina from "./src/assets/BannerProteina.png"
 function Banner({Titulo=""}){
     const imagenes = [
-        "./src/assets/BannerColageno.png",
-        "./src/assets/BannerCreatina.png",
-        "./src/assets/BannerProteina.png"
+        BannerColageno,
+        BannerCreatina,
+        BannerProteina
     ];
 
     const [indice, setIndice] = useState(0);
